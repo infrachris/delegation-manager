@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Mnemonic/key files - NEVER COMMIT THESE
+*.txt
+*-mnemonic.txt
+*-proxy.txt
+keyfile*
+mnemonic*
+proxy*
+*.key
+*.seed
+
+# Dev/troubleshooting scripts (not published)
+dev/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
