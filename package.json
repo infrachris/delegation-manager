@@ -1,0 +1,38 @@
+{
+  "name": "polkadot-delegation-manager",
+  "version": "1.0.0",
+  "description": "Batch delegate, undelegate, and manage OpenGov governance on Polkadot and Kusama Asset Hub using proxy accounts",
+  "author": "infrachris",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "check:polkadot": "node check-delegation.js --network polkadot",
+    "check:kusama": "node check-delegation.js --network kusama"
+  },
+  "bin": {
+    "delegate": "./delegate.js",
+    "governance-cleanup": "./governance-cleanup.js",
+    "check-delegation": "./check-delegation.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^16.5.3",
+    "@polkadot/keyring": "^12.0.0",
+    "@polkadot/util-crypto": "^12.0.0"
+  },
+  "keywords": [
+    "polkadot",
+    "kusama",
+    "opengov",
+    "governance",
+    "delegation",
+    "conviction-voting",
+    "asset-hub",
+    "proxy"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
