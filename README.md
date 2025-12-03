@@ -78,7 +78,6 @@ node delegate.js <account> <keyfile> <delegate_to> <balance> <conviction> [optio
 ```
 
 **Arguments:**
-| Argument | Description |
 |----------|-------------|
 | `account` | Your account address (the one delegating) |
 | `keyfile` | Path to file containing proxy mnemonic |
@@ -87,7 +86,6 @@ node delegate.js <account> <keyfile> <delegate_to> <balance> <conviction> [optio
 | `conviction` | Lock multiplier: `None`, `Locked1x` through `Locked6x` |
 
 **Options:**
-| Option | Description |
 |--------|-------------|
 | `--network N` | Network: `kusama` (default) or `polkadot` |
 | `--dry-run` | Show what would be done without submitting |
@@ -100,7 +98,7 @@ node delegate.js <account> ./ksm-proxy.txt JKupaoCtkRzMjCDQJbVMbG1jmEr8ebtoRG7cm
 # Polkadot - delegate 8000 DOT with 5x conviction
 node delegate.js <account> ./dot-proxy.txt 16fbkDCMrAo1uyC52NyA8Y2dETnYVpCofSoj3QEE2WUNnkLk 8000 Locked5x --network polkadot
 ```
-(These examples delegate votes to INFRASTRUCTURE CORPORATION delegatee -- Thank you :)
+* These examples delegate votes to INFRASTRUCTURE CORPORATION delegatee -- Thank you :)
 
 ---
 
