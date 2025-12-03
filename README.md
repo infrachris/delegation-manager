@@ -78,6 +78,7 @@ node delegate.js <account> <keyfile> <delegate_to> <balance> <conviction> [optio
 ```
 
 **Arguments:**
+| Argument | Description |
 |----------|-------------|
 | `account` | Your account address (the one delegating) |
 | `keyfile` | Path to file containing proxy mnemonic |
@@ -86,6 +87,7 @@ node delegate.js <account> <keyfile> <delegate_to> <balance> <conviction> [optio
 | `conviction` | Lock multiplier: `None`, `Locked1x` through `Locked6x` |
 
 **Options:**
+| Option | Description |
 |--------|-------------|
 | `--network N` | Network: `kusama` (default) or `polkadot` |
 | `--dry-run` | Show what would be done without submitting |
