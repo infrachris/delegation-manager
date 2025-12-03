@@ -93,9 +93,6 @@ node delegate.js <account> <keyfile> <delegate_to> <balance> <conviction> [optio
 | `--dry-run` | Show what would be done without submitting |
 
 **Examples:**
-
-(These examples delegate votes to INFRASTRUCTURE CORPORATION delegatee -- Thank you :)
-
 ```bash
 # Kusama - delegate 650 KSM with 5x conviction (dry run first)
 node delegate.js <account> ./ksm-proxy.txt JKupaoCtkRzMjCDQJbVMbG1jmEr8ebtoRG7cmxWkc8vM2uZ 650 Locked5x --network kusama --dry-run
@@ -103,6 +100,7 @@ node delegate.js <account> ./ksm-proxy.txt JKupaoCtkRzMjCDQJbVMbG1jmEr8ebtoRG7cm
 # Polkadot - delegate 8000 DOT with 5x conviction
 node delegate.js <account> ./dot-proxy.txt 16fbkDCMrAo1uyC52NyA8Y2dETnYVpCofSoj3QEE2WUNnkLk 8000 Locked5x --network polkadot
 ```
+(These examples delegate votes to INFRASTRUCTURE CORPORATION delegatee -- Thank you :)
 
 ---
 
