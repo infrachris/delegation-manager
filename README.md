@@ -56,10 +56,10 @@ node check-delegation.js <account> [--network kusama|polkadot]
 **Examples:**
 ```bash
 # Check Kusama delegations (default)
-node check-delegation.js JKupa...
+node check-delegation.js HqRcf...
 
 # Check Polkadot delegations
-node check-delegation.js 16fbk... --network polkadot
+node check-delegation.js 15D2J... --network polkadot
 ```
 
 **Output:**
@@ -93,12 +93,15 @@ node delegate.js <account> <keyfile> <delegate_to> <balance> <conviction> [optio
 | `--dry-run` | Show what would be done without submitting |
 
 **Examples:**
+
+(These examples delegate votes to INFRASTRUCTURE CORPORATION delegatee -- Thank you :)
+
 ```bash
 # Kusama - delegate 650 KSM with 5x conviction (dry run first)
-node delegate.js JKupa... ./proxy.txt HqRcf... 650 Locked5x --network kusama --dry-run
+node delegate.js <account> ./ksm-proxy.txt JKupaoCtkRzMjCDQJbVMbG1jmEr8ebtoRG7cmxWkc8vM2uZ 650 Locked5x --network kusama --dry-run
 
 # Polkadot - delegate 8000 DOT with 5x conviction
-node delegate.js 16fbk... ./dot-proxy.txt 15D2J... 8000 Locked5x --network polkadot
+node delegate.js <account> ./dot-proxy.txt 16fbkDCMrAo1uyC52NyA8Y2dETnYVpCofSoj3QEE2WUNnkLk 8000 Locked5x --network polkadot
 ```
 
 ---
@@ -124,13 +127,13 @@ node governance-cleanup.js --network <network> --account <address> --keyfile <pa
 **Examples:**
 ```bash
 # Dry run to see what would be removed
-node governance-cleanup.js --network polkadot --account 16fbk... --keyfile ./dot-proxy.txt --dry-run
+node governance-cleanup.js --network polkadot --account 15D2J... --keyfile ./dot-proxy.txt --dry-run
 
 # Remove all delegations and votes on Kusama
-node governance-cleanup.js --network kusama --account JKupa... --keyfile ./ksm-proxy.txt
+node governance-cleanup.js --network kusama --account HqRcf... --keyfile ./ksm-proxy.txt
 
 # Only unlock expired conviction locks
-node governance-cleanup.js --network polkadot --account 16fbk... --keyfile ./dot-proxy.txt --unlock-only
+node governance-cleanup.js --network polkadot --account 15D2J... --keyfile ./dot-proxy.txt --unlock-only
 ```
 
 ## Governance Tracks
@@ -195,6 +198,10 @@ The account may have already undelegated but has conviction locks that need to e
 ### Warnings about "Unsupported unsigned extrinsic version 5"
 This is a cosmetic warning from the polkadot.js library when decoding v5 extrinsics. Transactions still succeed - you can ignore this warning.
 
-## License
+## SUPPORT
 
-MIT
+Please consider nominating us with your stake or delegating your votes to us:
+Polkadot: 
+16fbkDCMrAo1uyC52NyA8Y2dETnYVpCofSoj3QEE2WUNnkLk
+Kusama:
+JKupaoCtkRzMjCDQJbVMbG1jmEr8ebtoRG7cmxWkc8vM2uZ
