@@ -199,7 +199,7 @@ This is a cosmetic warning from the polkadot.js library when decoding v5 extrins
 ## SUPPORT
 
 Please consider nominating us with your stake or delegating your votes to us:
-Polkadot: 
-16fbkDCMrAo1uyC52NyA8Y2dETnYVpCofSoj3QEE2WUNnkLk
-Kusama:
-JKupaoCtkRzMjCDQJbVMbG1jmEr8ebtoRG7cmxWkc8vM2uZ
+
+Polkadot: 16fbkDCMrAo1uyC52NyA8Y2dETnYVpCofSoj3QEE2WUNnkLk
+
+Kusama: JKupaoCtkRzMjCDQJbVMbG1jmEr8ebtoRG7cmxWkc8vM2uZ
